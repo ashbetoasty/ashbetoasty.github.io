@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(145, 139, 118);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #E9F4EB;
+}
+p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #E9F4EB;
+}
+ul {
+    padding: 10px;
+}
+li { 
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 235, 216);
+}
+header {
+    text-align: center;
+    background: url(https://images6.alphacoders.com/379/379569.png);
+    background-size: cover;
+    padding: 50px 0px 0px 0px;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    color: #E8E8E8;
+    font-family: 'Saira Semi Condensed', sans-serif;    
+}
+a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+footer{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: -50px;
+}
+article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+nav {
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+}
+input {
+    border: 3px solid #949893;
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px 0px 10px 0px;
+    align: center;
+}
+input[type="button"] {
+    background: rgb(218, 227, 206);
+    color: #527443;
+}
+iframe {
+    margin-top: 30px;
+    border: solid white;
+}
+table, tr {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	border: 1px solid rgb(50, 84, 59);
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+tr {
+	height: 50px;
+}
+td, th {
+	padding: 15px;
+	text-align: left;
+}
+th {
+	background-color: rgb(93, 102, 64);
+	color: white;
+}
+td, tr {
+	color: black;
+	background-color: rgba(251, 255, 251, 0.89);
+}
+.tinted-image {
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(50, 46, 33, 0.45), 
+        rgba(52, 47, 34, 0.45)
+      ),
+      /* bottom, image */
+      url(https://i5.walmartimages.com/asr/57b42825-65c5-486f-896e-a298a563f148_1.e8634405ba77e8608e886f7916da3650.jpeg);
+      position: relative;
+  }
+.fgh {
+    margin: 40px 0pc 0pc 0pc;
+    border-radius: 10%;
+    border: 3px solid white;
+}
+.line {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+}
+.img-middle {
+    margin: 40px 1pc 0pc 0pc;
+    border-radius: 10%;
+    border: 3px solid rgba(255, 255, 255, 0.86);
+}
+.img-circle {
+    margin: 40px 1pc 0pc 0pc;
+    border-radius: 100%;
+    border: 3px solid rgba(255, 255, 255, 0.86);
+}
+.kot {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 15px;
+    color: white;
+}
+.atm-links {
+    color: #215427;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 80px;
+    border: 1px solid #cc6816;
+    border-radius: 50px;
+    background: #ff9705;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff9705), to(#cc5703));
+    background: -moz-linear-gradient(top, #ff9705, #cc5703);
+    background: linear-gradient(to bottom, #ff9705, #cc5703);
+    text-shadow: #78451c 1px 0px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #ff871d;
+    background: #ffb506;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffb506), to(#f56804));
+    background: -moz-linear-gradient(top, #ffb506, #f56804);
+    background: linear-gradient(to bottom, #ffb506, #f56804);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #995b03;
+    background: -webkit-gradient(linear, left top, left bottom, from(#995b03), to(#cc5703));
+    background: -moz-linear-gradient(top, #995b03, #cc5703);
+    background: linear-gradient(to bottom, #995b03, #cc5703);
+}
+@media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    li {
+      padding: 5px;
+      display: block;
+    }
+    .fgh {
+        width: 300px;
+    }
+}
