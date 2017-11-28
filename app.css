@@ -116,7 +116,7 @@ td, tr {
     text-align: justify;
 }
 .square{
-    type: square;
+    type="square"
 }
 .line {
     padding: 10px;
