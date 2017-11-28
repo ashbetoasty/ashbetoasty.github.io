@@ -120,12 +120,12 @@ td, tr {
     background: rgba(0,0,0,0.5);
 }
 .img-middle {
-    margin: 40px 1pc 0pc 0pc;
+    margin: 70px 1pc 0pc 0pc;
     border-radius: 10%;
     border: 3px solid rgba(255, 255, 255, 0.86);
 }
 .img-circle {
-    margin: 40px 1pc 0pc 0pc;
+    margin: 70px 1pc 0pc 0pc;
     border-radius: 100%;
     border: 3px solid rgba(255, 255, 255, 0.86);
 }
