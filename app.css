@@ -112,6 +112,12 @@ td, tr {
     border-radius: 10%;
     border: 3px solid white;
 }
+.justify{
+    text-align: justify;
+}
+.square{
+    type: square;
+}
 .line {
     padding: 10px;
     background: rgba(0,0,0,0.5);
