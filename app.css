@@ -116,7 +116,10 @@ td, tr {
     text-align: justify;
 }
 .square{
-    type="square"
+    content: "►";
+    display: block;
+    float: left;
+    width: 1.2em;
 }
 .line {
     padding: 10px;
