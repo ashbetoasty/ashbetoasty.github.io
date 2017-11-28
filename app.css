@@ -115,12 +115,6 @@ td, tr {
 .justify{
     text-align: justify;
 }
-.square{
-    content: "►";
-    display: block;
-    float: left;
-    width: 1.2em;
-}
 .line {
     padding: 10px;
     background: rgba(0,0,0,0.5);
